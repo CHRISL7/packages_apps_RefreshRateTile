@@ -1,0 +1,14 @@
+android_app {
+    name: "RefreshRateTile",
+
+    srcs: ["src/**/*.java"],
+
+    certificate: "platform",
+    platform_apis: true,
+    privileged: true,
+
+    static_libs: [
+        "androidx.core_core",
+        "androidx.preference_preference",
+    ],
+}
